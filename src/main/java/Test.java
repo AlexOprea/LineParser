@@ -20,6 +20,7 @@ public class Test {
                 FileWriter fileWriter = new FileWriter("Results.txt");
                 BufferedWriter bw = new BufferedWriter(fileWriter);
                 bw.write(CountLines.getLongestVerseByNumberOfApparition(input));
+                bw.write("\n");
                 bw.close();
             } catch(IOException e)
             {
